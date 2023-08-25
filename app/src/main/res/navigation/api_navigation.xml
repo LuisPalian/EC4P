@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/api_navigation"
+    app:startDestination="@id/apiListFragment">
+
+    <fragment
+        android:id="@+id/apiFavoriteFragment"
+        android:name="com.pailan.ec4.view.fragments.ApiFavoriteFragment"
+        android:label="fragment_api_favorite"
+        tools:layout="@layout/fragment_api_favorite" >
+        <action
+            android:id="@+id/action_apiFavoriteFragment_to_apiDetailFragment"
+            app:destination="@id/apiDetailFragment"
+            app:popUpTo="@id/apiFavoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/apiInfoFragment"
+        android:name="com.pailan.ec4.view.fragments.ApiInfoFragment"
+        android:label="fragment_api_info"
+        tools:layout="@layout/fragment_api_info" />
+    <fragment
+        android:id="@+id/apiListFragment"
+        android:name="com.pailan.ec4.view.fragments.ApiListFragment"
+        android:label="fragment_api_list"
+        tools:layout="@layout/fragment_api_list" >
+        <action
+            android:id="@+id/action_apiListFragment_to_apiDetailFragment"
+            app:destination="@id/apiDetailFragment"
+            app:popUpTo="@id/apiListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/apiDetailFragment"
+        android:name="com.pailan.ec4.view.fragments.ApiDetailFragment"
+        android:label="fragment_api_detail"
+        tools:layout="@layout/fragment_api_detail" >
+        <argument
+            android:name="api"
+            app:argType="com.pailan.ec4.model.Api" />
+    </fragment>
+    <fragment
+        android:id="@+id/apiFirebaseFragment"
+        android:name="com.pailan.ec4.view.fragments.ApiFirebaseFragment"
+        android:label="fragment_api_firebase"
+        tools:layout="@layout/fragment_api_firebase" />
+</navigation>

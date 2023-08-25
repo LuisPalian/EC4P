@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "274766227234",
+    "project_id": "ec4p-fd6dc",
+    "storage_bucket": "ec4p-fd6dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274766227234:android:f72ef41076dc2fdae7e77b",
+        "android_client_info": {
+          "package_name": "com.pailan.ec4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274766227234-d6u2sca1eqr3cpobvp70kdaivujpbl09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pailan.ec4",
+            "certificate_hash": "12dd7816817a76fb052df7bafbe75a8365135154"
+          }
+        },
+        {
+          "client_id": "274766227234-h66hjfl96b7k1kig3saj6s7c3859kgdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh615rW5GNVwAvtHE78GBiDWwpEyOgC7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274766227234-el5rpugjjv5ndkhlruublg9j9pdaj9lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

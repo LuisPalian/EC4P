@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/apiListFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_valorant"
+        android:title="Valorant"/>
+    <item
+        android:id="@id/apiFavoriteFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favoritos"/>
+    <item
+        android:id="@id/apiFirebaseFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_firebase"
+        android:title="FireBase"/>
+    <item
+        android:id="@id/apiInfoFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_info"
+        android:title="Cerrar"/>
+</menu>
